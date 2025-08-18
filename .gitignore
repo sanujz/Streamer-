@@ -11,6 +11,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# Logs
+logs
+*.log
+
 # Runtime data
 pids
 *.pid
@@ -56,10 +60,5 @@ jspm_packages/
 ehthumbs.db
 Thumbs.db
 
-# Logs
-logs
-*.log
-
-# Build outputs
-dist/
-build/
+# FFmpeg binary (since it's platform-specific)
+ffmpeg/
